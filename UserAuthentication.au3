@@ -1,0 +1,7 @@
+WinWaitActive("the-internet.herokuapp.com/basic_auth - Google Chrome" , "Chrome Legacy Window",5)
+Send("admin")
+Send("{TAB}")
+WinWait("" , "" ,8)
+Send("admin")
+Send("{ENTER}")
+WinWait("" , "" ,8)
